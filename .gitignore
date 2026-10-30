@@ -1,6 +1,4 @@
 # Deployment secrets
-.env
-.env.*
 !*.example
 
 # Nginx templates get a .orig backup when a domain is substituted in
@@ -22,7 +20,8 @@ frontend/out/
 # Editors / OS
 .DS_Store
 .idea/
-.vscode/
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
+node_modules
